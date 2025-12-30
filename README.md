@@ -4,6 +4,8 @@ A Flutter application for extracting edges from images using various edge detect
 
 note: the print is buggy in windows
 
+![](./app.png)
+
 ## Features
 
 1. **Open Images**: Load JPG/PNG images from file system
