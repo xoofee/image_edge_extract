@@ -1,0 +1,37 @@
+name: image_edge_extractor
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.4.45+25123001
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  # File picker for opening images
+  file_picker: ^8.1.2
+
+  # Image processing and edge detection
+  image: ^4.3.0
+  
+  # Printing support
+  printing: ^5.13.3
+  pdf: ^3.11.1
+  
+  # Clipboard support for Windows
+  pasteboard: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
